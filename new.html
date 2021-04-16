@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>
+Form
+</title>
+<head>
+<script type="text/javascript">
+function fun()
+{
+var name=prompt("Enter Your First Name Here:"," ");
+var fn=document.getElementById('fn');
+fn.value=name;
+}
+
+function funn()
+{
+var lname=prompt("Enter Your Last name Here:"," ");
+var ln=document.getElementById('ln');
+ln.value=lname;
+}
+</script>
+</head>
+
+
+<form>
+<table align="centre">
+<tr>
+<th>
+first name</th>
+<button>ohooo</button>
+<td><input type="text" id="fn" placeholder"first name"   value="" onclick="fun();readonly"></td><br>
+<th>last name </th>
+<td><input type="text"  id="ln" placeholder"last name"  value="" onclick="funn();"readonly></td></tr>
+</table>
+</form>
+</html>
